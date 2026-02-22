@@ -8,8 +8,7 @@ import java.sql.Statement;
 public class DatabaseUtil {
     private static final String URL = "jdbc:mysql://localhost:3306/movies";
     private static final String USER = "root";
-    private static final String PASSWORD = "rayyaan123";
-    
+    private static final String PASSWORD = "deadman415";
     public static Connection getConnection() throws SQLException {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
